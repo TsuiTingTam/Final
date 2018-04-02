@@ -1,0 +1,68 @@
+function randomImg() {
+var Img = new Array();
+    
+    Img[1] = "1.png";
+    Img[2] = "2.png";
+    Img[3] = "3.png";
+    Img[4] = "4.png";
+    Img[5] = "5.png";
+    Img[6] = "6.png";
+
+    var Link = new Array();
+    
+    Link[1] = "http://www.google.com";
+    Link[2] = "http://www.google.com";
+    Link[3] = "http://www.google.com";
+    Link[4] = "http://www.google.com";
+    Link[5] = "http://www.google.com";
+    Link[6] = "http://www.google.com";
+    
+    var Title = new Array();
+    
+    Title[1] = "Tibetan";
+    Title[2] = "Tibetan";
+    Title[3] = "Mongolian";
+    Title[4] = "Suzhou numerals";
+    Title[5] = "Tibetan";
+    Title[6] = "Tibetan";
+
+
+    
+    
+    var Text = new Array();
+    
+    Text[1] = "A wonderful piece of calligraphy, taking the vertical Mongolian words for \"Happy New Year\"  and turning them into candles on an evergreen tree. Based on an original design by Sukhbaatar Lkhagvadorj.";
+    Text[2] = "A wonderful piece of calligraphy, taking the vertical Mongolian words for \"Happy New Year\"  and turning them into candles on an evergreen tree. Based on an original design by Sukhbaatar Lkhagvadorj.";
+    Text[3] = "A wonderful piece of calligraphy, taking the vertical Mongolian words for \"Happy New Year\"  and turning them into candles on an evergreen tree. Based on an original design by Sukhbaatar Lkhagvadorj.";
+    Text[4] = "The Suzhou numerals, also known as Suzhou mazi, is a numeral system used in China before the introduction of Arabic numerals. The Suzhou numetrals are also known as huama, caoma, jingzima , fanzima and shangma.";
+    Text[5] = "abc electric";
+    Text[6] = "abc electric";
+    
+    var BGcolor = new Array ();
+    
+    BGcolor[1] = "#FB8200";
+    BGcolor[2] = "#FB8200";
+    BGcolor[3] = "#0079CB";
+    BGcolor[4] = "#F8D473";
+    BGcolor[5] = "#FB8200";
+    BGcolor[6] = "#FB8200";
+    
+    var rnd = Math.floor(Math.random() * Img.length);
+    if (rnd === 0) {
+        rnd = 1;
+    }
+    
+    
+    document.getElementById("title").innerHTML = '<a href= "'+ Link[rnd] +'">' + Title[rnd] + '</a>';
+    
+    document.getElementById("description").innerHTML = Text[rnd];
+
+    document.getElementById("images").src = Img[rnd]; 
+    
+    document.body.style.backgroundColor = BGcolor[rnd];
+    
+    document.getElementById("link").src= Link[rnd];
+
+
+}
+

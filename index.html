@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-
 <html>
 
     <head>
-    <meta charset="UTF-8">
-    <title> Random.index </title>
-    <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <a href="Test.html">
-	       <img class="icon" id="home" src="Img/Home.png" alt="Home">
+        <title>test</title>
+        <link rel="stylesheet" href="style.css">
+                
+        <script type="text/javascript" src="script.js"></script>
+        <a href="content.html">
+        <img class="icon" id="home" src="Home.png">
         </a>
+           
+        <a href = "index.html">
+            <img class="icon" id="refresh" src="Refresh.png" style="width:30px;height:30px;border:0;">
         
-        <a href="">
-	       <img class="icon" id="refresh" src="Img/Refresh.png" alt="Refresh">
         </a>
     </head>
-    
     <body>
-        
-        <div id="container">
-        
-            <img id="hero" src="Img/3.png">
-        
-        </div>
-        
-        <div class="text">
-        
-            <p id="title">Mongolian</p>
-            <p id="description">
-            A wonderful piece of calligraphy, taking the vertical Mongolian words for “Happy New Year” and turning them into candles on an evergreen tree. Based on an original design by Sukhbaatar Lkhagvadorj.
-            </p>
-        </div>
-        
-    
-    </body>
+    <div id="group">
+        <nav>
+            <ul>
+                <li> <a id="link"><p id="title"></p></a>
+                    <ul class="drop-menu menu">
+                        <a href="content.html"><li>Content</li></a>
+                        <a href="Suzhou.html"><li>Suzhou</li></a>
+                        <a href="content.html"><li>Content</li></a>
+                        <a href="content.html"><li>Content</li></a>
 
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <p id="description"></p>
     
+    </div>
+        
+        <div><img id="images"> </div>
+        <div>
+
+        <script type="text/javascript">
+            randomImg();
+        </script>
+        <script type="text/javascript" src="jquery-3.3.1.min.js"> </script>
+        <script type="text/javascript" src="scriptblur.js"></script>
+
+            </div>
+
+
+    </body>
 </html>
