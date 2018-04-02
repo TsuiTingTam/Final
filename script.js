@@ -10,12 +10,12 @@ var Img = new Array();
 
     var Link = new Array();
     
-    Link[1] = "http://www.google.com";
-    Link[2] = "http://www.google.com";
-    Link[3] = "http://www.google.com";
-    Link[4] = "http://www.google.com";
-    Link[5] = "http://www.google.com";
-    Link[6] = "http://www.google.com";
+    Link[1] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[2] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[3] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[4] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[5] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[6] = "https://tsuitingtam.github.io/Final/Suzhou.html";
     
     var Title = new Array();
     
